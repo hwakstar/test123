@@ -4,7 +4,7 @@ const Input = ({label, Icon, placeholder}) => {
     console.log(Icon);
     let IconClass = 'span-pic-' + Icon ;
     return (
-        <div>
+        <div className="pt-3">
             <label className="input-label" htmlFor="price">
                 {label}
             </label>

@@ -13,9 +13,18 @@ const Login = () => {
             <div className="text-title">Log In</div>
             <div className="container-login-input">
                 <Input label={'Name'} Icon={'user'} placeholder={'Enter your name'} />
-            </div>
-          </div>  
-           
+                <Input label={'Password'} Icon={'eye'} placeholder={'Enter your Password'} />
+                <div className="check-login pt-3">
+                  <div>
+                    <input className="check-input" type="checkbox" id="remember" name="remember" value=""/>
+                    <label className="check-label" for="remember"> Remember me</label>
+                  </div>       
+                  <div>
+
+                  </div>           
+                </div>
+            </div>         
+          </div>             
         </div>
     );
 };
