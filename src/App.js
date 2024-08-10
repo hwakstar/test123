@@ -12,6 +12,8 @@ const App = () => {
                 <Route path="/" element={<SplashPage />} />
                 <Route path="/launcher" element={<LauncherPage />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/forgetpassword" element={<ForgetPassword/>} />
+
                 {/* Add other routes as needed */}
             </Routes>
         </Router>
