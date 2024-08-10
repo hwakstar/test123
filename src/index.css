@@ -23,7 +23,7 @@ body {
   margin-top: 20px;
   letter-spacing: 2px;
 }
-/* src/ */
+/* src/Pages/ */
 .container {
   display: flex;
   flex-direction: column;
@@ -43,8 +43,14 @@ body {
   background-image: url('./assets/launcher.png'); /* Specify the path to your image */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the image */
-
 }
+
+.app-bar {
+  display: flex;
+  flex-direction: column;
+  height: 44px; /* Full viewport height */
+}
+
 .fade-in {
   opacity: 1; /* Fully visible */
 }
@@ -57,4 +63,9 @@ body {
   font-size: 16px;
   margin-top: 0px;
   font-weight: bold;
+}
+
+/* src/Components/ */
+.backward-button {
+
 }
