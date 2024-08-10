@@ -119,21 +119,6 @@ body {
   margin-top:55px;  
 }
 
-.input-field {
-  margin-top: 10px;
-  height: 40px;
-  width: 100%;
-  background-color: transparent;
-  border-radius: 8px; 
-  border:0.5px white solid!important;
-  padding: 0 !important;
-}
-
-label {
- font-size: 14px;
- color:white;
-}
-
 /*--------- eagle toenail ---------*/
 .auth-container{
   width: 375px;
