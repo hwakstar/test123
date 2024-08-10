@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 import logo from '../app-logo.png'; // Import your logo image
+import ellipse from '../Ellipse.png';
 
 const SplashPage = () => {
     const [fadeOut, setFadeOut] = useState(false);
@@ -20,8 +21,9 @@ const SplashPage = () => {
 
     return (
         <div className={`container ${fadeOut ? 'fade-out' : 'fade-in'}`}>
-            <img src={logo} alt="Bittoken Logo" className="logo" style={{ width: '110px', height: 'auto' }} />
+            <img src={logo} alt="Bittoken Logo" className="logo" />
             <h1 className="title">BITTOKEN</h1>
+            <img src={ellipse} alt="Bittoken Ellipse" className="logo-ellipse"/>
         </div>
     );
 };

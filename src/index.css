@@ -8,7 +8,13 @@ body {
 }
 
 .logo {
-  width: 80px; /* Adjust the width to fit the design */
+  width: 110px; /* Adjust the width to fit the design */
+  height: auto;
+}
+.logo-ellipse{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .title {
