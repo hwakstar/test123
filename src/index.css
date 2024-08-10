@@ -110,6 +110,8 @@ body {
 }
 
 .text-title {
+  display: flex;
+  justify-content: center;
   font-size: 25px;
   color:white;
   font-weight: bold;
@@ -164,12 +166,7 @@ body {
   flex-direction:column;
 }
 
-.text-title {
-  font-size: 25px;
-  color:white;
-  font-weight: bold;
-  padding-top:175px;
-}
+
 .verification {
   text-align: center;
   margin-bottom: 0.5rem;
@@ -216,7 +213,7 @@ body {
   background-color: transparent;
   border-radius: 8px; 
   border:0.5px white solid!important;
-  padding: 0 !important;
+  /* padding: 0 !important; */
 }
 
 label {
@@ -259,3 +256,15 @@ button:hover {
  /* // background-image: url('./assets/Group 105.png');  */
 }
 /*--------------------------------*/
+
+.input-label {
+  color:white;
+  font-weight: 100!important;
+ }
+ 
+ .span-pic-user {
+   background-image: url('./assets/user.png'); /* Specify the path to your image */
+   height: 19.8px;
+   width: 18px;
+ }
+ 
