@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>BitToken Mini-App</title>     
-       
-   </head>
-   <body>
-     
-       <div id="root"></div>
-   </body>
-   </html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BitToken Mini-App</title>
+  </head>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Initialize Telegram Web App
+      window.Telegram.WebApp.onEvent("viewportChanged", function () {
+        // Set the header color
+        Telegram.WebApp.setHeaderColor("#4A90E2"); // Change this to your desired color
+      });
+
+      // You can also set other properties or initialize your app here
+      Telegram.WebApp.ready(); // Call this when your app is ready
+    </script>
+  </body>
+</html>

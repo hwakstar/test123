@@ -1,12 +1,18 @@
 // src/App.js
 import React from 'react';
-import SplashPage from './components/Splash';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SplashPage from './Pages/Splash';
+import LauncherPage from './Pages/Launcher'; // Import your launcher page component
 
 const App = () => {
     return (
-        <div>
-            <SplashPage />
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<SplashPage />} />
+                <Route path="/launcher" element={<LauncherPage />} />
+                {/* Add other routes as needed */}
+            </Routes>
+        </Router>
     );
 };
 

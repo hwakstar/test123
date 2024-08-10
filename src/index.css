@@ -10,10 +10,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  text-align: center;
-}
-
 .logo {
   width: 80px; /* Adjust the width to fit the design */
 }
@@ -23,4 +19,21 @@ body {
   font-size: 24px;
   margin-top: 10px;
   letter-spacing: 2px;
+}
+/* src/SplashPage.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  transition: opacity 0.5s ease; /* Transition for fade effect */
+}
+
+.fade-in {
+  opacity: 1; /* Fully visible */
+}
+
+.fade-out {
+  opacity: 0; /* Fully transparent */
 }
