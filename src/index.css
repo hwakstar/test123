@@ -134,3 +134,143 @@ label {
  color:white;
 }
 
+/*--------- eagle toenail ---------*/
+.auth-container{
+  width: 375px;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.forgetpassword-container {
+  margin: 0 auto;
+  /* padding: 2rem; */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+}
+.verification-container {
+  margin: 0 auto;
+  /* padding: 2rem; */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+}
+.forget-password {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+.container-auth {
+  padding:60px 20px 0px 20px;
+  height: 100vh; /* Full viewport height */ 
+}
+
+/* src/Components/ */
+.backward-button {
+  background-image: url('./assets/backward.png'); /* Specify the path to your image */
+  height: 25px;
+  width: 25px;
+
+}
+
+.container-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  flex-direction:column;
+}
+
+.text-title {
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+  padding-top:175px;
+}
+.verification {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  padding-top:175px;
+}
+
+.container-login-input{  
+  margin-top:55px;  
+}
+.verification-description {
+  text-align: center;
+  padding-left: 87px;
+  padding-right: 87px;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+  margin:auto;
+  font-size: 0.8em;
+
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.figure-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.code{
+  background-color: #406a94;
+  width:25%;
+  padding-left: 10px;
+}
+.gmailaccount{
+  padding-top: 1rem;}
+
+.input-field {
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 8px; 
+  border:0.5px white solid!important;
+  padding: 0 !important;
+}
+
+label {
+ font-size: 14px;
+ color:white;
+}
+input {
+  width: 93.5%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px !important;
+  background-color: transparent !important;
+}
+.sendresetcode{
+  margin-top:400px;
+}
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: rgb(212, 198, 0);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.gotologin{
+  padding-top: 50px;
+  margin:auto;
+  text-align: center;
+}
+.gotologin span{
+  color:rgb(212, 198, 0);
+}
+.previous{
+ /* // background-image: url('./assets/Group 105.png');  */
+}
+/*--------------------------------*/

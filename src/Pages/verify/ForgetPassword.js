@@ -5,7 +5,7 @@ const ForgetPassword = () => {
     return (
         <div className="auth-container">
             <div className="forgetpassword-container">
-                <div className='previous'></div>          
+                {/* <div className='previous'></div>           */}
                 <div className='forget-password'><label>Forget Password</label></div>
                 <div className='forget-description'><label>Please enter your gmail account to receive your verification code</label></div>
                 <div className="form-group">
