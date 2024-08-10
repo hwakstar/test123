@@ -37,7 +37,6 @@ body {
   background-image: url('./assets/launcher.png'); /* Specify the path to your image */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the image */
-
 }
 .fade-in {
   opacity: 1; /* Fully visible */
