@@ -20,7 +20,7 @@ const SplashPage = () => {
 
     return (
         <div className={`container ${fadeOut ? 'fade-out' : 'fade-in'}`}>
-            <img src={logo} alt="Bittoken Logo" className="logo" style={{ width: '150px', height: 'auto' }} />
+            <img src={logo} alt="Bittoken Logo" className="logo" style={{ width: '110px', height: 'auto' }} />
             <h1 className="title">BITTOKEN</h1>
         </div>
     );

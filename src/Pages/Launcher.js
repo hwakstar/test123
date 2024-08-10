@@ -3,9 +3,9 @@ import React, {  } from 'react';
 const LauncherPage = () => {   
 
     return (
-        <div className="container">
+        <div className="container-launcher">          
+         
             
-            <h1 className="title">BITTOKEN</h1>
         </div>
     );
 };

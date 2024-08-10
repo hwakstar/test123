@@ -1,13 +1,10 @@
 /* src/SplashPage.css */
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-color: #0d2a47; /* Dark blue background color */
   font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow: hidden; /* Prevent scrolling if necessary */
 }
 
 .logo {
@@ -16,11 +13,11 @@ body {
 
 .title {
   color: #ff8741; /* Orange color */
-  font-size: 24px;
-  margin-top: 10px;
+  font-size: 15px;
+  margin-top: 20px;
   letter-spacing: 2px;
 }
-/* src/SplashPage.css */
+/* src/ */
 .container {
   display: flex;
   flex-direction: column;
@@ -29,11 +26,29 @@ body {
   height: 100vh; /* Full viewport height */
   transition: opacity 0.5s ease; /* Transition for fade effect */
 }
+/* src/ */
+.container-launcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  transition: opacity 0.5s ease; /* Transition for fade effect */
+  background-image: url('./assets/launcher.png'); /* Specify the path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
 
+}
 .fade-in {
   opacity: 1; /* Fully visible */
 }
 
 .fade-out {
   opacity: 0; /* Fully transparent */
+}
+.subtitle {
+  color: white;
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: bold;
 }
