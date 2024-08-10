@@ -93,46 +93,63 @@ body {
 
 
 /*--------- eagle toenail ---------*/
-/* src/LoginPage.css */
+.auth-container{
+  width: 375px;
+  padding-left: 20px;
+  padding-right:20px;
+}
 .forgetpassword-container {
-  /* max-width: 400px; */
   margin: 0 auto;
-  padding: 2rem;
-  border: 1px solid #ddd;
+  /* padding: 2rem; */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* background-color: #fff; */
 }
 
-.forget-pasword {
+.forget-password {
   text-align: center;
-  margin-bottom: 1rem;
-  color: white
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  padding-top:114px;
 }
 
 .forget-description {
   text-align: center;
+  padding-left: 87px;
+  padding-right: 87px;
   margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+  margin:auto;
+  font-size: 0.6em;
+
 }
 
 .form-group {
   margin-bottom: 1rem;
 }
-
+.gmailaccount{
+  padding-top: 1rem;
+}
 label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  
+  color:rgb(255, 255, 255);
 }
 
 input {
-  width: 100%;
+  width: 313px;
+  margin-right: 20px !important;
   padding: 0.75rem;
   border: 1px solid #ddd;
+  background-color: transparent !important;
   border-radius: 4px;
 }
 
 button {
-  width: 100%;
+  width: 335px;
   padding: 0.75rem;
   background-color: #007bff;
   color: #fff;

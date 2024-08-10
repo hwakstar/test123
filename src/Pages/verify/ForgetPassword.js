@@ -8,7 +8,7 @@ const ForgetPassword = () => {
                 <div className='forget-password'><label>Forget Password</label></div>
                 <div className='forget-description'><label>Please enter your gmail account to receive your verification code</label></div>
                 <div className="form-group">
-                    <label className="gmailaccount">Gmail Account</label>
+                    <label className="gmailaccount">Gmail Account  *</label>
                     <input type="text" id="gmail" name="gmail" required/>
                 </div>
                 <button type="submit">Send reset code</button>
