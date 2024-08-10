@@ -1,10 +1,13 @@
 import React, { } from "react";
+import { Link } from 'react-router-dom';
 
-const BackwardButton = () => {   
+const BackwardButton = ({linkUrl}) => {   
 
     return (
-        <div className="backward-button"> 
+        <div className="backward-button">
+            <Link href={linkUrl} /> 
         </div>
+        
     );
 };
 

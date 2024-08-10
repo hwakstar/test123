@@ -12,7 +12,7 @@ const ForgetPassword = () => {
                     <label className="gmailaccount">Gmail Account  *</label>
                     <input type="text" id="gmail" name="gmail" placeholder='Enter your email' required/>
                 </div>
-                <button className='sendresetcode' type="submit">Send reset code</button>
+                  <button className='sendresetcode' type="submit">Send reset code</button>
                 <label className="gotologin">Already have an account?<span > Login</span></label>
             </div>
         </div>
