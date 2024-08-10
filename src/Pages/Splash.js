@@ -1,9 +1,9 @@
 // src/SplashPage.js
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
-import logo from '../app-logo.png'; // Import your logo image
-import ellipse from '../Ellipse.png';
-import ellipse2 from '../Ellipse2.png';
+import logo from '../assets/app-logo.png'; // Import your logo image
+import ellipse from '../assets/Ellipse.png';
+import ellipse2 from '../assets/Ellipse2.png';
 
 const SplashPage = () => {
     const [fadeOut, setFadeOut] = useState(false);
