@@ -4,8 +4,7 @@ import Input from "../../Components/Input";
 
 const Login = () => {   
 
-    return (
-      
+    return (     
       
         
         <div className="container-auth">    
@@ -13,7 +12,7 @@ const Login = () => {
           <div className="container-login">
             <div className="text-title">Log In</div>
             <div className="container-login-input">
-                <Input />
+                <Input label={'Name'} Icon={'user'} placeholder={'Enter your name'} />
             </div>
           </div>  
            
