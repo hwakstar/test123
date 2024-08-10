@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {  } from 'react';
 
 const ForgetPassword = () => {   
 
@@ -9,7 +9,7 @@ const ForgetPassword = () => {
                 <div className='forget-description'><label>Please enter your gmail account to receive your verification code</label></div>
                 <div className="form-group">
                     <label className="gmailaccount">Gmail Account  *</label>
-                    <input type="text" id="gmail" name="gmail" required/>
+                    <input type="text" id="gmail" name="gmail" placeholder='Enter your email' required/>
                 </div>
                 <button type="submit">Send reset code</button>
             </div>
