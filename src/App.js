@@ -5,7 +5,7 @@ import SplashPage from './Pages/Splash';
 import LauncherPage from './Pages/Launcher'; // Import your launcher page component
 import Login from './Pages/auth/Login'; // Import login page
 import ForgetPassword from './Pages/verify/ForgetPassword';
-
+import TestBottomBar from './Pages/TestBottomBar';
 const App = () => {
     return (
         <Router>
@@ -14,7 +14,7 @@ const App = () => {
                 <Route path="/launcher" element={<LauncherPage />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/forgetpassword" element={<ForgetPassword/>} />
-
+                <Route path="/testbottombar" element={<TestBottomBar/>} />
                 {/* Add other routes as needed */}
             </Routes>
         </Router>
