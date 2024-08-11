@@ -1,11 +1,11 @@
 import React, { } from "react";
 
-const Input = ({label, Icon, placeholder}) => {   
-    console.log(Icon);
+const Input = ({label, Icon, placeholder, name}) => {   
+    
     let IconClass = 'span-pic-' + Icon ;
     return (
         <div className="pt-3">
-            <label className="input-label" htmlFor="price">
+            <label className="input-label" htmlFor={name}>
                 {label}
             </label>
             <div className="relative mt-2 rounded-md shadow-sm">
@@ -13,8 +13,8 @@ const Input = ({label, Icon, placeholder}) => {
                     <span className={`text-gray-500 sm:text-sm ${IconClass}`}></span>
                 </div>
                 <input                
-                    id="price"
-                    name="price"
+                    id={name}
+                    name={name}
                     type="text"
                     placeholder={placeholder}
                     className="input-field block w-full rounded-md border-0 py-1.5 pl-10 pr-20 text-white-900 ring-1 ring-inset ring-gray-300 placeholder:text-white-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
