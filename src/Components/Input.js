@@ -24,8 +24,4 @@ const Input = ({label, Icon, placeholder, name}) => {
     );
 };
 
-
-
-
-
 export default Input;

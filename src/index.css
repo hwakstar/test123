@@ -88,24 +88,11 @@ body {
   font-weight: bold;
 }
 
-
-.container-auth {
-  padding:60px 20px 0px 20px;
-  height: 100vh; /* Full viewport height */ 
-}
-
 /* src/Components/ */
 .backward-button {
   background-image: url('./assets/backward.png'); /* Specify the path to your image */
   height: 25px;
   width: 25px;
-}
-
-.container-login {
-  display: flex;
-  justify-content: center;
-  margin-top: 42px;
-  flex-direction:column;
 }
 
 .text-title {
@@ -114,10 +101,6 @@ body {
   font-size: 25px;
   color:white;
   font-weight: bold;
-}
-
-.container-login-input{  
-  margin-top:55px;  
 }
 
 /*--------- eagle toenail ---------*/
@@ -146,8 +129,9 @@ body {
   color: rgb(255, 255, 255);
 }
 .container-auth {
-  padding:60px 20px 0px 20px;
+  padding:40px 20px 0px 20px;
   height: 100vh; /* Full viewport height */ 
+  overflow-y: auto;
 }
 
 /* src/Components/ */
@@ -161,14 +145,14 @@ body {
 .container-login {
   display: flex;
   justify-content: center;
-  margin-top: 42px;
+  margin-top: 20px;
   flex-direction:column;
 }
 
 .container-signup {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: 30px;
   flex-direction:column;
 }
 
@@ -182,7 +166,7 @@ body {
 }
 
 .container-login-input{  
-  margin-top:55px;  
+  margin-top:20px;  
 }
 .verification-description {
   text-align: center;
@@ -237,6 +221,12 @@ body {
    height: 19.8px;
    width: 18px;
  }
+
+ .span-pic-country {
+  background-image: url('./assets/country.png'); /* Specify the path to your image */
+  height: 19.8px;
+  width: 18px;
+}
 
  .span-pic-eye {
   background-image: url('./assets/eye.png'); /* Specify the path to your image */
@@ -308,14 +298,14 @@ body {
 } 
 
 .signup-button {
-  margin-top: 18px;
+  margin-top: 40px;
 } 
 
 .creat-account {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 120px;
   color:white;
 }
 
@@ -328,6 +318,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 7px;
+  margin: 40px;
   color:white;
 }

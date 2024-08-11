@@ -8,7 +8,9 @@ const Login = () => {
 
   return (         
     <div className="container-auth">    
-      <BackwardButton linkUrl={'/launcher'} />    
+      <Link to="/launcher">
+        <BackwardButton  />    
+      </Link>
       <div className="container-login">
         <div className="text-title">Log In</div>
         <div className="container-login-input">

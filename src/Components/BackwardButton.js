@@ -5,7 +5,6 @@ const BackwardButton = ({linkUrl}) => {
 
     return (
         <div className="backward-button">
-            <Link href={linkUrl} /> 
         </div>
         
     );
