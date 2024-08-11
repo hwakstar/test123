@@ -1,12 +1,12 @@
 import React, { } from "react";
 
-const Input = ({label, Icon, placeholder, name}) => {   
+const Input = ({htmlFor, Icon, placeholder, name}) => {   
     
     let IconClass = 'span-pic-' + Icon ;
     return (
         <div className="pt-3">
             <label className="input-label" htmlFor={name}>
-                {label}
+                {htmlFor}
             </label>
             <div className="relative mt-2 rounded-md shadow-sm">
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">

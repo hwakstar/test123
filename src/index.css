@@ -218,38 +218,44 @@ body {
  
  .span-pic-user {
    background-image: url('./assets/user.png'); /* Specify the path to your image */
+   background-repeat: no-repeat;
    height: 19.8px;
    width: 18px;
  }
 
  .span-pic-country {
   background-image: url('./assets/country.png'); /* Specify the path to your image */
-  height: 19.8px;
+  height: 18px;
   width: 18px;
+  background-repeat: no-repeat;
 }
 
  .span-pic-eye {
   background-image: url('./assets/eye.png'); /* Specify the path to your image */
   height: 19.8px;
   width: 18px;
+  background-repeat: no-repeat;
 }
 
 .span-pic-calloutgoing {
   background-image: url('./assets/calloutgoing.png'); /* Specify the path to your image */
   height: 19.8px;
   width: 18px;
+  background-repeat: no-repeat;
 }
 
 .span-pic-directory {
   background-image: url('./assets/directory.png'); /* Specify the path to your image */
   height: 19.8px;
   width: 18px;
+  background-repeat: no-repeat;
 }
 
 .span-pic-Vector {
   background-image: url('./assets/Vector.png'); /* Specify the path to your image */
   height: 19.8px;
   width: 18px;
+  background-repeat: no-repeat;
 }
 
 .check-login {

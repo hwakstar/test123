@@ -15,12 +15,12 @@ const Login = () => {
         <div className="text-title">Log In</div>
         <div className="container-login-input">
            <form>
-              <Input label={'Name'} Icon={'user'} placeholder={'Enter your name'} name={'name'} />
-              <Input label={'Password'} Icon={'eye'} placeholder={'Enter your Password'} name={'password'} />
+              <Input htmlFor={'Name'} Icon={'user'} placeholder={'Enter your name'} name={'name'} />
+              <Input htmlFor={'Password'} Icon={'eye'} placeholder={'Enter your Password'} name={'password'} />
               <div className="check-login pt-5">
                 <div className="check-part">
-                  <input className="check-input" type="checkbox" id="remember" name="remember" value=""/>
-                  <label className="check-label" for="remember"> Remember me</label>
+                  <input className="check-input" type="checkbox" id="remember" name="remember" defaultValue=""/>
+                  <label className="check-label" htmlFor="remember"> Remember me</label>
                 </div>       
                 <Link to="/forgetpassword" className="forgot-part">
                   Forgot Password?
