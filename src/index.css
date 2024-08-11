@@ -311,8 +311,34 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 70px;
   color:white;
+}
+
+.select-country {
+  
+}
+
+.css-13cymwt-control {
+  
+  background-color: transparent!important;
+  border-radius: 8px!important;
+}
+
+.css-1dimb5e-singleValue{
+  color: rgb(184, 184, 184)!important;
+}
+
+.css-t3ipsp-control {
+  background-color: transparent!important;
+  border-radius: 8px!important;
+  color: white !important;;
+}
+
+
+.css-hlgwow {
+  height: 45Px!important;
+  
 }
 
 .auth-span {

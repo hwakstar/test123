@@ -2,6 +2,7 @@ import React, { } from "react";
 import BackwardButton from "../../Components/BackwardButton";
 import Input from "../../Components/Input";
 import GlobalButton from "../../Components/GlobalButton";
+import SelectCountry from "../../Components/CountrySelect";
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {   
@@ -18,7 +19,8 @@ const SignUp = () => {
                     <Input htmlFor={'Name'} Icon={'user'} placeholder={'Enter your name'} name={'name'} />
                     <Input htmlFor={'Mobile Number'} Icon={'calloutgoing'} placeholder={'Enter your Mobile number'} name={'phone_number'} />
                     <Input htmlFor={'Gmail Account'} Icon={'directory'} placeholder={'Enter your email'} name={'email'} />
-                    <div className="pt-3">
+                    <SelectCountry />
+                    {/* <div className="pt-3">
                         <label className="input-label" htmlFor="country">
                             Country
                         </label>
@@ -30,14 +32,14 @@ const SignUp = () => {
                                 id="country"
                                 name="country"
                                 defaultValue="Select Country"
-                                className="input-field block  rounded-md border-0 py-1.5 pl-10 pr-10 text-white-900 ring-1 ring-inset ring-gray-300 placeholder:text-white-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="input-field block w-full rounded-md border-0 py-1.5 pl-10 pr-10 text-white-900 ring-1 ring-inset ring-gray-300 placeholder:text-white-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             > 
                                 <option defaultValue="Select Country">Select Country</option>
                                 <option defaultValue=""></option>
                                 <option defaultValue=""></option>
                             </select>      
                         </div>
-                    </div>
+                    </div> */}
                     <Input htmlFor={'Password'} Icon={'eye'} placeholder={'Enter your Password'} name={'password'} />
                     <Input htmlFor={'Repeat Password'} Icon={'eye'} placeholder={'Enter your Password'} name={'re_password'} />
                     <Input htmlFor={'Referral Code *'} Icon={'Vector'} placeholder={'Enter your Sponsor Code'} name={'code'} />                           
