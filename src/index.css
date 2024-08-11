@@ -128,10 +128,50 @@ body {
   font-weight: bold;
 }
 
+/* src/Components/ */
+.backward-button {
+  background-image: url('./assets/backward.png'); /* Specify the path to your image */
+  height: 25px;
+  width: 25px;
+}
 
+.text-title {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+}
+
+/*--------- eagle toenail ---------*/
+.auth-container{
+  width: 375px;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.forgetpassword-container {
+  margin: 0 auto;
+  /* padding: 2rem; */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+}
+.verification-container {
+  margin: 0 auto;
+  /* padding: 2rem; */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+}
+/* .forget-password {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+} */
 .container-auth {
-  padding:60px 20px 0px 20px;
+  padding:40px 20px 0px 20px;
   height: 100vh; /* Full viewport height */ 
+  overflow-y: auto;
 }
 
 /* src/Components/ */
@@ -145,32 +185,453 @@ body {
 .container-login {
   display: flex;
   justify-content: center;
-  margin-top: 42px;
+  margin-top: 20px;
   flex-direction:column;
 }
 
-.text-title {
+.container-signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction:column;
+}
+
+.verification {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
   font-size: 25px;
-  color:white;
   font-weight: bold;
+  padding-top:175px;
+}
+
+.container-login-input{  
+  margin-top:20px;  
+}
+.verification-description {
+  text-align: center;
+  padding-left: 87px;
+  padding-right: 87px;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+  margin:auto;
+  font-size: 0.8em;
+
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.figure-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.code{
+  background-color: #406a94;
+  width:25%;
+  padding-left: 10px;
+}
+.gmailaccount{
+  padding-top: 1rem;}
+
+.input-field {
+  margin-top: 10px;
+  height: 45px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 8px; 
+  border:0.5px white solid!important;
+  font-size: 15px!important;
+  color: white !important;;
+  /* padding: 0 !important; */
+}
+
+.sendresetcode{
+  margin-top:400px;
+}
+
+.input-label {
+  color:white;
+  font-weight: 100!important;
+ }
+ 
+ .span-pic-user {
+   background-image: url('./assets/user.png'); /* Specify the path to your image */
+   background-repeat: no-repeat;
+   height: 19.8px;
+   width: 18px;
+ }
+
+ .span-pic-country {
+  background-image: url('./assets/country.png'); /* Specify the path to your image */
+  height: 18px;
+  width: 18px;
+  background-repeat: no-repeat;
+}
+
+ .span-pic-eye {
+  background-image: url('./assets/eye.png'); /* Specify the path to your image */
+  height: 19.8px;
+  width: 18px;
+  background-repeat: no-repeat;
+}
+
+.span-pic-calloutgoing {
+  background-image: url('./assets/calloutgoing.png'); /* Specify the path to your image */
+  height: 19.8px;
+  width: 18px;
+  background-repeat: no-repeat;
+}
+
+.span-pic-directory {
+  background-image: url('./assets/directory.png'); /* Specify the path to your image */
+  height: 19.8px;
+  width: 18px;
+  background-repeat: no-repeat;
+}
+
+.span-pic-Vector {
+  background-image: url('./assets/Vector.png'); /* Specify the path to your image */
+  height: 19.8px;
+  width: 18px;
+  background-repeat: no-repeat;
+}
+
+.check-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:white;
+  font-size: 15px;
+}
+
+.check-label {
+  margin-left:3px;
+  color:rgb(165, 164, 164);
+}
+
+.check-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.check-input {
+ height: 18px;
+ width: 18px;
+ background-color: transparent!important;
+ /* border-color: white 1px solid!important; */
+}
+
+.forgot-part {
+  color:rgb(165, 164, 164);
+}
+
+.global-button {
+  height: 45px;
+  width: 100%;
+  background-color:#ebaa02;
+  border-radius: 10px;
+  color:white;
+  font-size: 18px;
+  font-weight: bolder;  
+  padding:10px;
+}
+
+.login-button {
+  margin-top: 46px;
+} 
+
+.signup-button {
+  margin-top: 40px;
+} 
+
+.creat-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  color:white;
+}
+
+
+.css-13cymwt-control {
+  
+  background-color: transparent!important;
+  border-radius: 8px!important;
+}
+
+.css-1dimb5e-singleValue{
+  color: rgb(184, 184, 184)!important;
+}
+
+.css-t3ipsp-control {
+  background-color: transparent!important;
+  border-radius: 8px!important;
+  color: white !important;;
+}
+
+
+.css-hlgwow {
+  height: 45Px!important;
+  
+}
+
+.auth-span {
+  color:#ebaa02;
+  font-weight: bolder;
+}
+ 
+.already-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+  color:white;
+}
+
+/*=================== eagle toenail =============================================*/
+.auth-container{
+  width: 100%;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.forgetpassword-container {
+  margin: 0 auto;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.verification-container {
+  margin: 0 auto;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.resetpassword-container {
+  margin: 0 auto;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.congratulation-container {
+  margin: 0 auto;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.forget-password{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  padding-top:29px;
+}
+.forget-password label{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+.forget-description{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.forget-description label{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+ 
+}
+.congratulation-image{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  padding-top:37px;
+}
+.congratulation-image label{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+.congratulation-description{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.congratulation-description label{
+  font-size: 15px;
+  color:  #414a58;
+ 
+}
+.reset-password{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  padding-top:28px;
+}
+.reset-password label{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+.resetpassword-description{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  color:#414a58 !important;
+}
+.resetpassword-description label{
+  font-size: 15px;
+  color: #414a58;
+ 
+}
+.verification {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  padding-top:6px;
 }
 
 .container-login-input{  
   margin-top:55px;  
 }
+.verification-description {
+  text-align: center;
+  padding-left: 87px;
+  padding-right: 87px;
+  margin-bottom: 1rem;
+  color: #414a58;
+  margin:auto;
+  font-size: 0.8em;
 
-.input-field {
-  margin-top: 10px;
-  height: 40px;
+}
+
+.form-group {
+  padding-top: 1em;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.form-group-reset {
+  margin-top: 71px;
+  padding-top: 1em;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+  
+}
+.form-group-reset input{
   width: 100%;
-  background-color: transparent;
-  border-radius: 8px; 
-  border:0.5px white solid!important;
-  padding: 0 !important;
+  height: 40px;
+  margin-top: 0.5em;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px !important;
+  background-color: transparent !important;
+}
+#password{
+  margin-bottom:18px;
+}
+.figure-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 35px;
+}
+.element{
+  background-color: #283e5d;
+  height:56px;
+  width:64.36px;
+  margin-left: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;  /* Adjust text size as needed */
+  text-align: center;
+  color:#fff;
+  font-weight: bold;
+}
+.gmailaccount{
+  padding-top: 1rem;}
+
+.sendresetcode{
+  margin-top:427px;
+}
+.resetpassowrd{
+  margin-top:294px;
+}
+.resetpassworddone{
+  margin-top:185px;
+  font-weight: bold;
+}
+/* button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color:  #f1ab27;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+} */
+
+.gotologin{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  color:#fff;
+}
+.resendcode{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  margin-top: 64px;
+  color:#fff;
+}
+.gotologin span{
+  color: #f1ab27;
+  text-align: center;
+}
+.resendcode span{
+  color: #f1ab27;
+  text-align: center;
+}
+.continue-btn{
+  margin-top: 334px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-label {
- font-size: 14px;
- color:white;
+.previous{
+  margin-top: 60px;
+  width: 100%;
+  height: 25px;
+  background-image: url('./assets/Group 105.png');
+  background-repeat: no-repeat;
 }
-
+.passwordLabel{
+  color:#fff;
+  font-size: 14px;
+}
+.confirmpasswordLabel{
+  color:#fff;
+  font-size: 14px;
+}
+.check-image{
+  width: 195px;
+  margin-top: 128px !important;
+  margin: auto;
+  height: 195px;
+  background-image: url('./assets/congratulation.png');
+  background-repeat: no-repeat; 
+}
+/*--------------------------------*/

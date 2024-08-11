@@ -1,10 +1,10 @@
 import React, { } from "react";
 
-const BackwardButton = () => {   
+const BackwardButton = ({linkUrl}) => {   
 
     return (
-        <div className="backward-button"> 
-        </div>
+        <div className="backward-button">
+        </div>        
     );
 };
 
