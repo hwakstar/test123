@@ -123,11 +123,11 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* background-color: #fff; */
 }
-.forget-password {
+/* .forget-password {
   text-align: center;
   margin-bottom: 0.5rem;
   color: rgb(255, 255, 255);
-}
+} */
 .container-auth {
   padding:40px 20px 0px 20px;
   height: 100vh; /* Full viewport height */ 
