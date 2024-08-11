@@ -1,4 +1,5 @@
 import React, {  } from 'react';
+import Button from '../../Components/verify/Button';
 
 const Verification = () => {   
 
@@ -9,13 +10,13 @@ const Verification = () => {
                 <div className='verification'><label>Verification</label></div>
                 <div className='verification-description'><label>We’ve sent your verification code, check your gmail inbox or spam folder</label></div>
                 <div className="figure-group">
-                    <div className='code'>7</div>
-                    <div className='code'>3</div>
-                    <div className='code'>9</div>
-                    <div className='code'>6</div>
-                    <label className="gotologin">Don;t you receive the code?<span > Resend code</span></label>
+                    <div className='element'><span>7</span></div>
+                    <div className='element'><span>9</span></div>
+                    <div className='element'><span>3</span></div>
+                    <div className='element'><span>2</span></div>
                 </div>
-                <button className='continue-btn' type="submit">Continue</button>
+                <label className="resendcode">Don't you receive the code? &nbsp;<span > Resend code</span></label>
+                <Button className='continue-btn' type="submit">Continue</Button>
             </div>
         </div>
 

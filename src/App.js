@@ -6,6 +6,9 @@ import LauncherPage from './Pages/Launcher'; // Import your launcher page compon
 import Login from './Pages/auth/Login'; // Import login page
 import ForgetPassword from './Pages/verify/ForgetPassword';
 import SignUp from './Pages/auth/SignUp';// Import SignUp page
+import Verification from './Pages/verify/Verification';
+import ResetPassword from './Pages/verify/ResetPassword';
+import Congratulation from './Pages/verify/Congratulation';
 
 const App = () => {
     return (
@@ -16,7 +19,9 @@ const App = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/forgetpassword" element={<ForgetPassword/>} />
-
+                <Route path="/verify" element={<Verification/>} />
+                <Route path="/ResetPassword" element={<ResetPassword/>} />
+                <Route path="/Congratulation" element={<Congratulation/>} />
                 {/* Add other routes as needed */}
             </Routes>
         </Router>
