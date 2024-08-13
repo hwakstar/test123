@@ -1,6 +1,6 @@
 // BottomBar.js
 import React from 'react';
-import '../index.css'; // Import the CSS file
+// import '../index.css'; // Import the CSS file
 
 
 const BottomBar = () => {
@@ -19,9 +19,9 @@ const BottomBar = () => {
   return (
     <div className="bottom-bar">
       {bottombtns.map((bottombtn, index) => (
-        <button key={index} className="bottom-bar-button">
+        <button key={index} className="bottom-bar-button" onClick={handleButtonClick}>
           <img src={bottombtn.src} alt={bottombtn.alt} className="bottom-bar-icon" />
-          <text className='bottom-bar-text'>{bottombtn.alt}</text>
+          <a className='bottom-bar-text'>{bottombtn.alt}</a>
         </button>
       ))}
     </div>
