@@ -634,4 +634,8 @@ body {
   background-image: url('./assets/congratulation.png');
   background-repeat: no-repeat; 
 }
+.error-message{
+  color: red;
+  margin-top: 10px;
+}
 /*--------------------------------*/
