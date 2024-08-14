@@ -7,7 +7,7 @@ import axios from 'axios'; // Make sure to install axios if you haven't already
 
 const Login = () => {   
   const [formData, setFormData] = useState({
-    name: '',
+    username: '',
     password: '',
   });
   const [error, setError] = useState('');
@@ -52,7 +52,7 @@ const Login = () => {
         <div className="text-title">Log In</div>
         <div className="container-login-input">
            <form onSubmit={handleSubmit}>
-              <Input htmlFor={'Name'} Icon={'user'} placeholder={'Enter your name'} name={'name'}  onChange={handleChange} />
+              <Input htmlFor={'Name'} Icon={'user'} placeholder={'Enter your name'} name={'username'}  onChange={handleChange} />
               <Input htmlFor={'Password'} Icon={'eye'} placeholder={'Enter your Password'} name={'password'}  onChange={handleChange} />
               <div className="check-login pt-5">
                 <div className="check-part">

@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 const SignUp = () => {
   const [error, setError] = useState("");
   const [formData, setFormData] = useState({
-    name: "",
+    username: "",
     phone_number: "",
     email: "",
     password: "",
@@ -67,7 +67,7 @@ const SignUp = () => {
               htmlFor={"Name"}
               Icon={"user"}
               placeholder={"Enter your name"}
-              name={"name"}
+              name={"username"}
               onChange={handleChange}
               type={"text"}
             />
