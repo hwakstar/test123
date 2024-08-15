@@ -146,9 +146,7 @@ const History = () => {
                     />
 
                 </div>
-                
-            </div>         
-            <BottomBar/>  
+            </div>
         </>
     );
 };

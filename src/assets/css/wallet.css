@@ -1,7 +1,7 @@
 /* wallet.css */
 
 .container-wallet {
-    padding:40px 20px 0px 20px;
+    padding:40px 20px 75px 20px;
     height: 100vh; /* Full viewport height */ 
     display: flex;
     flex-direction: column;    
@@ -220,7 +220,7 @@
 }
 
 .container-wallet-history {
-    padding:40px 20px 0px 20px;
+    padding:40px 20px 10px 20px;
     height: 100vh; /* Full viewport height */ 
     display: flex;
     flex-direction: column;    
