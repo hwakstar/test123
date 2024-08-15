@@ -1,0 +1,179 @@
+.container-team {
+    padding:40px 20px 75px 20px;
+    height: 100vh; /* Full viewport height */ 
+    display: flex;
+    flex-direction: column;    
+    overflow-y: scroll;
+}
+
+.logo-diamond2 {
+    background-image:url('../../assets/diamond2.png'); /* Specify the path to your image */
+    height: 150px;
+    width: 150px;
+    margin-top:-15px;
+}
+
+.invite-link {
+    height: 60px;
+    width: 100%;
+    border-radius:10px ;
+    background-color: #02284D;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px 8px 20px;
+}
+
+.copy-btn {
+    padding: 3px 14px 3px 14px;
+    border-radius: 10px;
+    background-color: #F1AB27;
+}
+
+.link-header {
+    font-size: 16px;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-url {
+    margin-top: 2px;
+    font-size: 11px;
+    color:#b0b3b8;
+    width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.invite-btn {
+    font-size: 16px;
+    color:#ffffff;
+    border-radius: 10px;
+    background-color: #F1AB27;
+    padding: 8px 30px 8px 30px;
+    width:50%;
+}
+
+.teamtotal-number {
+    margin-top:34px;
+    color:#FFEEEE;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.underline {
+    color:#FFEEEE;
+    border-bottom: #FFEEEE solid 2px;
+    border-style: inset;
+    /* width: 100%; */
+}
+
+.total-number {
+    background-color: #02284D;
+    border-radius: 5px;
+    border: #DADADA1A solid 1px;
+    padding: 0px 23px 0px 23px;
+}
+
+.earning-detail-container {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #02284D;
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.coin-log {
+    background-image: url('../../assets/coin1.png');
+    height: 17px;
+    width: 17px;
+    background-image: cover;
+    background-repeat: no-repeat;   
+    margin-right: 5px;
+}
+
+.earning-right-container {
+    display: flex;
+    flex-direction: row; 
+}
+
+.earning-list-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700!important;    
+    border-top: #DADADA1A solid 0.5px;    
+    padding-top:5px;
+    align-items: center;
+}
+
+.earning-list-container2{
+    padding-bottom:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-earning {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+   padding-left: 15px;
+}
+
+.earning-title{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;   
+}
+
+.friends-list {
+    color:#ffffff;
+    background-color: #02284D;
+    padding:15px 20px 15px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.friends-list:hover {
+    
+    border-color: #FF8800;
+}
+
+.learn {
+    color:#ffffff;  
+    
+    font-size:12px ;
+    font-weight: 300;
+}
+
+.earning-learn {
+    margin-top: 30px;  
+    background-color:transparent; 
+    padding:5px 5px 5px 15px;
+    border: #98989894 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.go-logo {
+    margin-left: 3px;
+    background-image: url('../../assets/arrorup.png');
+    height: 22px;
+    width: 22px;
+}
+
