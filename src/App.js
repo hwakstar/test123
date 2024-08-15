@@ -10,6 +10,8 @@ import Verification from './Pages/verify/Verification';
 import ResetPassword from './Pages/verify/ResetPassword';
 import Congratulation from './Pages/verify/Congratulation';
 import Profile from './Pages/Profile/Profile';
+import Wallet from './Pages/Wallet/Wallet';
+import History from './Pages/Wallet/History';
 
 const App = () => {
     return (
@@ -24,6 +26,8 @@ const App = () => {
                 <Route path="/verify" element={<Verification/>} />
                 <Route path="/ResetPassword" element={<ResetPassword/>} />
                 <Route path="/Congratulation" element={<Congratulation/>} />
+                <Route path="/wallet" element={<Wallet />} />
+                <Route path="/wallet/history" element={<History />} />
                 {/* Add other routes as needed */}
             </Routes>
         </Router>

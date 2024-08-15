@@ -1,0 +1,421 @@
+/* wallet.css */
+
+.container-wallet {
+    padding:40px 20px 0px 20px;
+    height: 100vh; /* Full viewport height */ 
+    display: flex;
+    flex-direction: column;    
+    overflow-y:auto;
+}
+
+.contraction-button {  
+    background-image: url('../../assets/contraction.png'); /* Specify the path to your image */
+    height: 16px;
+    width: 5px;    
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50px;
+}
+
+.container-inventory {
+    /* background-image: url('../../assets/inventory.png'); Specify the path to your image */
+     background: linear-gradient(180deg,  #012A40 0%, #021c4100 50%,  #012A40 100%);
+    height: 151px;
+    width: 100%;
+    margin-top:40px;
+    z-index: 1;
+    border:#DADADA61 0.5px solid;
+    border-radius: 8px;
+}
+
+.inventory-line {
+    background-image: url('../../assets/inventoryline.png'); /* Specify the path to your image */
+    height: 86px;
+    width: 321px;
+    margin-bottom:0px;
+    z-index: 2;
+    position: absolute;
+}
+
+.inventory-title{
+    color: white;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size:19px;
+    font-weight: bolder;
+}
+
+.inventory-quentity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-left: 20px;  
+    margin-top:15px;
+    font-size:30px;
+    font-weight: bolder;
+}
+
+.col-8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 61%;
+}
+
+.col-4{
+    width: 39%;
+    font-size: 16px;
+}
+
+.coin {
+    background-image: url('../../assets/coin.png'); /* Specify the path to your image */
+    height: 23px;
+    width: 23px;
+    margin-right: 6px;
+    margin-left: -5px;
+}
+
+.button-group {
+    margin-top: 17px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airdrop {
+    background-image: url('../../assets/airdrop.png'); /* Specify the path to your image */   
+    height: 60px;
+    width: 60px;
+    padding:30px;
+    border-radius: 50px;
+    border: 1px solid #ffffff62;
+}
+
+.stake {
+    background-image: url('../../assets/Stake\ \(2\).png'); /* Specify the path to your image */   
+    height: 60px;
+    width: 60px;
+    padding:30px;
+    border-radius: 50px;
+    border: 1px solid #ffffff62;
+}
+
+.withdraw {
+    background-image: url('../../assets/Withdraw.png'); /* Specify the path to your image */   
+    height: 60px;
+    width: 60px;
+    padding:30px;
+    border-radius: 50px;
+    border: 1px solid #ffffff62;
+}
+
+.history {
+    background-image: url('../../assets/History.png'); /* Specify the path to your image */   
+    height: 60px;
+    width: 60px;
+    padding:30px;
+    border-radius: 50px;
+    border: 1px solid #ffffff62;
+}
+
+.history:hover {    
+    border: 1px solid #FF8800;
+}
+
+.button-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-size:18px;
+}
+
+.assets-balance {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 19px;
+    margin-top: 48px;
+    font-weight: bolder;
+}
+
+.classification {
+  
+    background-color: #012A40;
+    border:#DADADA61 0.5px solid;
+    border-radius: 8px;
+    height: 221px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin:0;
+    font-size: 19px;
+    padding:21px 14px 21px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.balance-icon-btt {
+    height: 20px;
+    width: 20px;
+    background-image:url('../../assets/bitt.png'); /* Specify the path to your image */  
+}
+
+.balance-icon-fly {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-image:url('../../assets/fly.png'); /* Specify the path to your image */
+}
+
+.balance-icon-coin {
+    height: 20px;
+    width: 20px;
+    background-image:url('../../assets/coin.png'); /* Specify the path to your image */
+}
+
+.top-title {
+    font-size: 15px;
+    font-weight: 100;    
+}
+
+.balance-title {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;  
+}
+
+.sub-title {
+    font-size: 12px;
+    font-weight: 100;    
+    font-style: italic;
+    color: rgb(145, 145, 145);
+}
+
+.balance-cost{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.container-balance {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.subcontainer-balance {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.container-wallet-history {
+    padding:40px 20px 0px 20px;
+    height: 100vh; /* Full viewport height */ 
+    display: flex;
+    flex-direction: column;    
+    overflow-y:auto;
+}
+
+.page-title {
+    font-size: 20px;
+    color:white;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:5px;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(180deg,  #012A40 0%, #021c4100 50%,  #012A40 100%);
+    border-radius: 8px;
+    border:solid 0.5px #DADADA61;
+    padding: auto;
+}
+
+.history-pic-bonus {
+    background-image:url('../../assets/directreferral1.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-extrabonus {
+    background-image:url('../../assets/directreferralextra1.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-commission {
+    background-image:url('../../assets/levelreferral.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-miningrewards {
+    background-image:url('../../assets/Group1000007933.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-rankrewards {
+    background-image:url('../../assets/achievement.png'); /* Specify the path to your image */
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-taskrewards {
+    background-image:url('../../assets/taskperformed.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-swap {
+    background-image:url('../../assets/Refresh.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-stake {
+    background-image:url('../../assets/stake.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-withdrawal {
+    background-image:url('../../assets/withdrawal.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.history-pic-claim {
+    background-image:url('../../assets/claim.png'); /* Specify the path to your image */
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.check {
+    background-image:url('../../assets/Check.png'); /* Specify the path to your image */
+    height: 27px;
+    width: 27px;
+}
+
+
+.history-left-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:white;
+}
+
+.history-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.custom-direction {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    align-items: end;
+}
+
+.history-text{
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.history-title1 {
+   font-size: 11px;
+}
+
+.history-title2 {
+    font-size: 12px;
+}
+
+.history-title3 {
+    font-size: 14px;
+}
+
+.hostory-cost2{
+    font-size: 12px;
+}
+
+.hostory-cost1{
+    font-size: 14px;
+}
+
+.coin-kind2 {
+    font-size: 10px;
+    color: #989898;
+}
+
+.coin-kind1 {
+    font-size: 10px;
+    color: #989898;
+}
+
+.history-list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5px;
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(180deg,  #012A40 0%, #021c4100 50%,  #012A40 100%);
+    border-radius: 8px;
+    border:solid 0.5px #DADADA61;
+    padding: 0 6px 0 6px;
+}
+
+.history-list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5px;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(180deg,  #012A40 0%, #021c4100 50%,  #012A40 100%);
+    border-radius: 8px;
+    border:solid 0.5px #DADADA61;
+    padding: 0 6px 0 6px;
+}
+
+.user-gmail {
+    font-size: 10px;
+    text-decoration: underline;
+}
+.timestamp {
+    font-size:8px;
+    color:#989898;
+    margin-bottom: -5px;
+}
+
+.historylist {
+    margin-top:23px;
+}

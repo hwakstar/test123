@@ -3,7 +3,7 @@ import Select from "react-select";
 
  const SelectCountry = () => {
   const [countries, setCountries] = useState([]);
-  const [selectedCountry, setSelectedCountry] = useState({});
+  const [selectedCountry, setSelectedCountry] = useState({ });
 
   useEffect(() => {
     fetch(
