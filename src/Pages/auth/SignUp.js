@@ -56,9 +56,11 @@ const SignUp = () => {
   };
   return (
     <div className="container-auth">
-      <Link to="/login">
-        <BackwardButton />
-      </Link>
+      <div style={{ display: 'inline-block' }}>
+        <Link to="/login">
+          <BackwardButton />
+        </Link>
+      </div>
       <div className="container-signup">
         <div className="text-title">Create Account</div>
         <div className="container-signup-input">
