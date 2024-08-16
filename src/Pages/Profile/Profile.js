@@ -1,8 +1,7 @@
 import React, { } from 'react';
-import { useState } from 'react';
 import BottomBar from '../../Components/Bottombar';
 import BackwardButton from "../../Components/BackwardButton";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link,  } from 'react-router-dom';
 import ImageCommentLink from '../../Components/ImageCommentLink';
 import avatarImg from '../../assets/avatar.jpg'
 import facebookIcon from '../../assets/facebook-icon.png';

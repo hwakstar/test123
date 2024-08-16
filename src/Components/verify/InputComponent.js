@@ -1,10 +1,10 @@
 import React from 'react';
 
-const InputComponent = ({value, onChange, placeholder, type = 'text', style = {}, ...props }) => {
+const InputComponent = React.forwardRef(({ value, onChange, placeholder, type = 'text', style = {}, ...props }, ref) => {
     const defaultStyle = {
         width: '100%',
         height: '40px',
-        marginTop:'0.5em',
+        marginTop: '0.5em',
         padding: '0.75rem',
         border: '1px solid #ddd',
         borderRadius: '8px',
@@ -13,6 +13,7 @@ const InputComponent = ({value, onChange, placeholder, type = 'text', style = {}
 
     return (
         <input
+            ref={ref} // Forward the ref to the input
             type={type}
             value={value}
             onChange={onChange}
@@ -21,6 +22,6 @@ const InputComponent = ({value, onChange, placeholder, type = 'text', style = {}
             {...props}
         />
     );
-};
+});
 
 export default InputComponent;

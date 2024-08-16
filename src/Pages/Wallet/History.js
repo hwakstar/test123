@@ -1,11 +1,11 @@
 import React, {  } from 'react';
-import BottomBar from '../../Components/Bottombar';
+// import BottomBar from '../../Components/Bottombar';
 import TopBar from "../../Components/TopBar";
 import HistoryList from '../../Components/wallet/HistoryList';
-import WalletButton from '../../Components/wallet/WalletButton';
-import BalanceList from '../../Components/wallet/BalanceList';
-import { Link, } from 'react-router-dom';
-import axios from 'axios'; // Make sure to install axios if you haven't already
+// import WalletButton from '../../Components/wallet/WalletButton';
+// import BalanceList from '../../Components/wallet/BalanceList';
+// import { Link, } from 'react-router-dom';
+// import axios from 'axios'; // Make sure to install axios if you haven't already
 import '../../assets/css/wallet.css'
 
 const History = () => {   
@@ -146,9 +146,7 @@ const History = () => {
                     />
 
                 </div>
-                
-            </div>         
-            <BottomBar/>  
+            </div>
         </>
     );
 };
