@@ -1,6 +1,5 @@
 // BottomBar.js
-import React from 'react';
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import mineImg1 from '../assets/mine1.png';
 import mineImg2 from '../assets/mine2.png';
@@ -11,19 +10,27 @@ import teamImg1 from '../assets/team2.png';
 import teamImg2 from '../assets/team2.png';
 import earnImg1 from '../assets/earn1.png';
 import earnImg2 from '../assets/earn2.png';
-import walletImg1 from '../assets/mine1.png';
+import walletImg1 from '../assets/wallet1.png';
 import walletImg2 from '../assets/wallet2.png';
 
 
 // export default BottomBar;
 const BottomBar = () => {
-  const [activeButton, setActiveButton] = useState(null);
-  const navigate = useNavigate(); 
+  const [activeButton, setActiveButton] = useState(() => {
+    // Load the active button state from localStorage
+    return localStorage.getItem('activeButton') || null;
+  });
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Store the active button state in localStorage whenever it changes
+    localStorage.setItem('activeButton', activeButton);
+  }, [activeButton]);
 
   const handleButtonClick = (path, buttonName) => {
     setActiveButton(buttonName);
     setTimeout(() => {
-      navigate(path); 
+      navigate(path);
     }, 300);
   };
 
@@ -54,3 +61,5 @@ const BottomBar = () => {
 };
 
 export default BottomBar;
+
+

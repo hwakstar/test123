@@ -1,0 +1,255 @@
+.container-earn {
+    padding: 40px 20px 0px 20px;
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.container-earnTop {
+    align-items: center;
+}
+
+
+
+
+/*--------earnTop-----------*/
+.toptext-earn {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16.5px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.button-earnTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 47px;
+    border-radius: 3px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #98989891
+}
+
+.button-earnTop:hover {
+    border: 1px solid #FF880094
+}
+
+.button-text-earnTop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* Take full width of the button */
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.topbuttons-earnTop {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------------------End-------------------*/
+
+
+
+
+/*------------------Tob Tabs-------------------*/
+.tabs-container {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tabs-header {
+    display: flex;
+    position: relative;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: none;
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+    /* For positioning the underline */
+}
+
+.tab.active {
+    color: #F7B900;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    /* Thickness of the underline */
+    width: 100%;
+    background-color: #DADADA1A;
+    /* Color of the underline */
+}
+
+.tab.active .underline {
+    background-color: #F7B900;
+    /* Color of the underline for the active tab */
+}
+
+.tabs-content {
+    padding: 0px;
+}
+
+/*------------------End-------------------*/
+
+
+
+/*------------------Earn Card-------------------*/
+.earncard {
+    border: 1px solid #98989891;
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 167px;
+    height: 112px;
+
+}
+.earncard-complete{
+    border: 1px solid #98989891;
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 167px;
+    height: 94px;
+    background: #256D5980;
+}
+
+.earncard-missed{
+    border: 1px solid #98989891;
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 167px;
+    height: 94px;
+    background: #843E2080;
+}
+
+.earncard-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.earncard-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.earncard-top-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.earncard-topborder {
+    border: 1px solid #98989891;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.earncard-money {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.earncard-title {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+
+.earncard-money {
+    padding-right: 40px;
+}
+
+.earncard-id {
+    margin-left: 5px;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.earncard-totalslots{
+    width: 33.3333%;
+    padding: 5px;
+    border: 1px solid #98989891;
+    border-radius: 0px 0px 0px 6px;
+}
+
+.earncard-done{
+    width: 33.3333%;
+    padding: 5px;
+    border: 1px solid #98989891;
+    border-radius: 0px 0px 0px 0px;
+}
+.earncard-done-sub{
+    display: flex;
+    justify-content: center;
+}
+.earncard-slotsleft{
+    width: 33.3333%;
+    padding: 5px;
+    border: 1px solid #98989891;
+    border-radius: 0px 0px 6px 0px;
+}
+.earncard-missedtext{
+    font-size: 10px;
+    padding:5px;
+    color: #FE5948;
+
+}
+/*------------------End-------------------*/
