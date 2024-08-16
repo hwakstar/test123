@@ -1,17 +1,18 @@
 import React from "react";
 /*----import images----*/
 import coinImage from "../../../assets/earnimg/coin.png";
-import facebookMark from "../../../assets/earnimg/facebook-mark.png";
+// import facebookMark from "../../../assets/earnimg/facebook-mark.png";
 import greenCheck2 from "../../../assets/earnimg/greencheck2.png";
 import instagramMark from "../../../assets/earnimg/instagram-mark.png";
-import telegramMark from "../../../assets/earnimg/telegram-mark.png";
-import tiktokMark from "../../../assets/earnimg/tiktok-mark.png";
-import twitterMark from "../../../assets/earnimg/twitter-mark.png";
-import youtubeMark from "../../../assets/earnimg/youtube-mark.png";
+// import telegramMark from "../../../assets/earnimg/telegram-mark.png";
+// import tiktokMark from "../../../assets/earnimg/tiktok-mark.png";
+// import twitterMark from "../../../assets/earnimg/twitter-mark.png";
+// import youtubeMark from "../../../assets/earnimg/youtube-mark.png";
 
 import '../../../assets/css/earn.css';
 
 const EarnCard = ({ mark, title, ID, money, totalslots, doneslots, leftslots }) => {
+    console.log(mark, title, ID, money, totalslots, doneslots, leftslots)
     return (
         <>
             <div className="earncard">
@@ -36,7 +37,7 @@ const EarnCard = ({ mark, title, ID, money, totalslots, doneslots, leftslots }) 
                     <div className="earncard-done">
                         <div className="earncard-done-sub">
                             <div>Done</div>
-                            <img src={greenCheck2} />
+                            <img src={greenCheck2} alt="##"/>
                         </div>
                         <div>9,999</div>
                     </div>

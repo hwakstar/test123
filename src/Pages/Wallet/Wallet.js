@@ -3,8 +3,8 @@ import BottomBar from '../../Components/Bottombar';
 import TopBar from "../../Components/TopBar";
 import WalletButton from '../../Components/wallet/WalletButton';
 import BalanceList from '../../Components/wallet/BalanceList';
-import { Link,useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Make sure to install axios if you haven't already
+import { Link, } from 'react-router-dom';
+// import axios from 'axios'; // Make sure to install axios if you haven't already
 import '../../assets/css/wallet.css'
 
 const Wallet = () => {   

@@ -1,13 +1,13 @@
 import React from "react";
 import '../../../assets/css/earn.css';
 import coinImage from "../../../assets/earnimg/coin.png";
-import facebookMark from "../../../assets/earnimg/facebook-mark.png";
-import greenCheck2 from "../../../assets/earnimg/greencheck2.png";
+// import facebookMark from "../../../assets/earnimg/facebook-mark.png";
+// import greenCheck2 from "../../../assets/earnimg/greencheck2.png";
 import instagramMark from "../../../assets/earnimg/instagram-mark.png";
-import telegramMark from "../../../assets/earnimg/telegram-mark.png";
-import tiktokMark from "../../../assets/earnimg/tiktok-mark.png";
-import twitterMark from "../../../assets/earnimg/twitter-mark.png";
-import youtubeMark from "../../../assets/earnimg/youtube-mark.png";
+// import telegramMark from "../../../assets/earnimg/telegram-mark.png";
+// import tiktokMark from "../../../assets/earnimg/tiktok-mark.png";
+// import twitterMark from "../../../assets/earnimg/twitter-mark.png";
+// import youtubeMark from "../../../assets/earnimg/youtube-mark.png";
 
 const EarnCard2 = ({ mark, title, ID, money }) => {
     return (
