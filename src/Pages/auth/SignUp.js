@@ -43,7 +43,7 @@ const SignUp = () => {
     try {
       // Send formData to the backend
       const response = await axios.post(
-        "http://185.97.146.208:5000/register",
+        "https://185.97.146.208:5000/register",
         formData
       );
       navigate("/login"); // Change the path to your Login page route

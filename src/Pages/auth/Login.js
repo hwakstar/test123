@@ -28,7 +28,7 @@ const Login = () => {
 
     try {
       // Send login request to the backend
-      const response = await axios.post("http://185.97.146.208:5000/login", formData);
+      const response = await axios.post("https://185.97.146.208:5000/login", formData);
       console.log(response)
       console.log("Login successful", response.data);
 
