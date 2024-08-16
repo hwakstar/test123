@@ -12,11 +12,9 @@ import Congratulation from './Pages/verify/Congratulation';
 import Profile from './Pages/Profile/Profile';
 import Wallet from './Pages/Wallet/Wallet';
 import History from './Pages/Wallet/History';
-<<<<<<< HEAD
 import Earn from './Pages/earn/Earn';
-=======
+
 import Team from './Pages/Team/Team';
->>>>>>> 42762ee93a2c7eb4b272daa9eecb9c12565e688b
 
 const App = () => {
     return (
@@ -35,12 +33,9 @@ const App = () => {
                 {/* profile */}
                 <Route path="/profile" element={<Profile/>} />                
                 <Route path="/Congratulation" element={<Congratulation/>} />
-<<<<<<< HEAD
                 <Route path="/earn" element={<Earn />} />
-=======
 
                 {/* wallet */}
->>>>>>> 42762ee93a2c7eb4b272daa9eecb9c12565e688b
                 <Route path="/wallet" element={<Wallet />} />
                 <Route path="/wallet/history" element={<History />} />
 
