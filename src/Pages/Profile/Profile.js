@@ -33,7 +33,7 @@ const Profile = () => {
                     <div>
                         <ImageCommentLink
                             imageSrc={gmailIcon}
-                            comment=" Gamil address"
+                            comment=" Gmail address"
                             link="/destination-page"
                         />
                         <ImageCommentLink

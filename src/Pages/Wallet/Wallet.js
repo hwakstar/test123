@@ -48,7 +48,7 @@ const Wallet = () => {
                        <BalanceList title={'Bittoken(BTT)'} cost={'12300'} icon ={'btt'} subtitle={''} /> 
                        <BalanceList title={'Reward token(RT)'} cost={'32,000,000'} icon ={'coin'} subtitle={'Available for swap'} />
                        <BalanceList title={'Travel incentive point (TP)'} cost={'300.00'} icon ={'fly'} subtitle={''} />
-                       <BalanceList title={'Overrall Reword token(RT)'} cost={'300.00'} icon ={'coin'} subtitle={'since Registration'} />                      
+                       <BalanceList title={'Overall Reword token(RT)'} cost={'300.00'} icon ={'coin'} subtitle={'since Registration'} />                      
                     </div>
                 </div>
 
